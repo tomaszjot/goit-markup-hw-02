@@ -1,63 +1,143 @@
 h1 {
-  font-family: "Roboto", cursive;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
   text-align: center;
   color: #ffffff;
+  position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+.agency {
+  position: absolute;
+width: 53px;
+height: 16px;
+left: 453px;
+top: 32px;
+color: #2196F3;
+}
+.portfolio {
+  position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+color: #212121;
+}
+.contact {
+  
+position: absolute;
+width: 51px;
+height: 16px;
+left: 656px;
+top: 32px;
+color: #212121;
+}
+.infodevstudio {
+  position: absolute;
+width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+color: #2196F3;
+}
+.tel-header {
+  position: absolute;
+width: 110px;
+height: 16px;
+left: 1263px;
+top: 32px;
+color: #757575;
 }
 body {
   position: relative;
 }
 span {
-  font-family: "Raleway", cursive;
-  font-weight: 700;
-  font-size: 26px;
+  font-family: "Raleway";
+  font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
   color: #2196f3;
 }
 .page-link-header {
   font-family: "Oleo Script";
   font-weight: 400;
   font-size: 26px;
+  position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+letter-spacing: 0.03em;
 }
 .page-link-footer {
   font-family: "Oleo Script";
   font-weight: 400;
   font-size: 26px;
   color: #ffffff;
+  letter-spacing: 0.03em;
+  
 }
 a {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 14px;
-  text-decoration: none;
-  display: inline;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+
 }
 a:hover,
 a:focus {
   color: purple;
 }
 button {
+  position: absolute;
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   color: #ffffff;
-  width: 117px;
-  height: 30px;
+ width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
   background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
 .hero {
   background-color: #2f303a;
-  background-size: 1600px 600px;
+  width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+
+
 }
 header {
-  background-size: 1600px 80px;
+  position: absolute;
+width: 1600px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF
 }
 h2 {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
+  line-height: 42px;
   font-family: "Roboto";
+  font-style: normal;
 }
 .title-lorem {
   text-align: left;
@@ -87,7 +167,123 @@ footer {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
+  position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
 }
 .adress {
   color: #ffffff99;
+}
+.unordered-list {
+  list-style: none;
+}
+.card-bg-product-designer {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+  0px 1px 1px rgba(0, 0, 0, 0.14), 
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  position: absolute;
+width: 270px;
+height: 368px;
+left: 215px;
+top: 1635px;
+background: #FFFFFF;
+}
+.card-bg-frontend-developer {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+   0px 1px 1px rgba(0, 0, 0, 0.14),
+   0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+  position: absolute;
+width: 270px;
+height: 368px;
+left: 515px;
+top: 1635px;
+background: #FFFFFF;
+}
+.card-bg-marketing {
+  position: absolute;
+width: 270px;
+height: 368px;
+left: 815px;
+top: 1635px;
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+.card-bg-ui-designer {
+  position: absolute;
+width: 270px;
+height: 368px;
+left: 1115px;
+top: 1635px;
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+.feature1 {
+  position: absolute;
+width: 270px;
+height: 101px;
+left: 215px;
+top: 774px;
+}
+.feature2 {
+  position: absolute;
+width: 270px;
+height: 101px;
+left: 515px;
+top: 774px;
+}
+.feature3 {
+  position: absolute;
+width: 270px;
+height: 101px;
+left: 815px;
+top: 774px;
+}
+.feature4 {
+  position: absolute;
+width: 270px;
+height: 101px;
+left: 1115px;
+top: 774px;
+}
+.programmer-working {
+  position: absolute;
+width: 370px;
+height: 294px;
+left: 215px;
+top: 1061px;
+mix-blend-mode: normal;
+}
+.designers-are-developing {
+  position: absolute;
+width: 370px;
+height: 294px;
+left: 615px;
+top: 1061px;
+}
+.artist-web-design {
+  position: absolute;
+width: 370px;
+height: 294px;
+left: 1015px;
+top: 1061px;
+}
+.what-we-do {
+  position: absolute;
+width: 352px;
+height: 42px;
+left: 624px;
+top: 969px;
+}
+.our-team {
+  position: absolute;
+width: 210px;
+height: 42px;
+left: 695px;
+top: 1543px;
 }

@@ -1,47 +1,93 @@
 h1 {
-        font-family: 'Roboto',cursive; 
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 60px;
-        text-align: center;
-        color: #FFFFFF;
-      }
-      span {
-        font-family: 'Raleway', cursive;
-        font-weight: 700;
-        font-size: 26px;
-        color: #2196F3;
-      }
-      .page_link {
-        font-family: 'Oleo Script';
-        font-weight: 400;
-        font-size: 26px;
-      }
-      a {
-        font-family: 'Roboto';
-        font-weight: 500;
-        font-size: 14px;
-        text-decoration: none;
-      }
-      a:hover,
-      a:focus {
-        color: purple
-      }
-      button {
-        font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 16px;
-        color: #FFFFFF;
-        width: 117px;
-        height: 30px;
-        background-color: #2196F3;
-      }
-      .hero {
-        background-color: #2F303A;
-        background-size: 1600px 600px;
-      }
-      header {
-        background-size: 1600px 80px;
-      }
-     
-      
+  font-family: "Roboto", cursive;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+body {
+  position: relative;
+}
+span {
+  font-family: "Raleway", cursive;
+  font-weight: 700;
+  font-size: 26px;
+  color: #2196f3;
+}
+.page-link-header {
+  font-family: "Oleo Script";
+  font-weight: 400;
+  font-size: 26px;
+}
+.page-link-footer {
+  font-family: "Oleo Script";
+  font-weight: 400;
+  font-size: 26px;
+  color: #ffffff;
+}
+a {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline;
+}
+a:hover,
+a:focus {
+  color: purple;
+}
+button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  width: 117px;
+  height: 30px;
+  background-color: #2196f3;
+}
+.hero {
+  background-color: #2f303a;
+  background-size: 1600px 600px;
+}
+header {
+  background-size: 1600px 80px;
+}
+h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: "Roboto";
+}
+.title-lorem {
+  text-align: left;
+  font-size: 14px;
+}
+.text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  color: #757575;
+}
+.names {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+}
+div {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+footer {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+}
+.adress {
+  color: #ffffff99;
+}

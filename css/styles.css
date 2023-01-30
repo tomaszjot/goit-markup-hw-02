@@ -68,6 +68,10 @@ a:hover,
 a:focus {
   color: purple;
 }
+button:hover,
+button:focus {
+  color: purple;
+}
 button {
   font-family: "Roboto";
   font-weight: 500;

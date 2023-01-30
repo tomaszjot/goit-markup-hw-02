@@ -1,40 +1,48 @@
 h1 {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
   text-align: center;
   color: #ffffff;
 }
-.agency {
-color: #2196F3;
+.agency1 {
+  color: #2196f3;
 }
-.portfolio {
-color: #212121;
+.agency2 {
+  color: #212121;
+}
+.portfolio1 {
+  color: #212121;
+}
+.portfolio2 {
+  color: #2196f3;
 }
 .contact {
-color: #212121;
+  color: #212121;
 }
 .infodevstudio {
-color: #2196F3;
+  color: #2196f3;
 }
 .tel-header {
-color: #757575;
+  color: #757575;
 }
 span {
   font-family: "Raleway";
   font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
   color: #2196f3;
+  letter-spacing: 0.03em;
 }
 .page-link-header {
   font-family: "Oleo Script";
   font-weight: 400;
   font-size: 26px;
   letter-spacing: 0.03em;
+  line-height: 31px;
 }
 .page-link-footer {
   font-family: "Oleo Script";
@@ -42,18 +50,19 @@ line-height: 31px;
   font-size: 26px;
   color: #ffffff;
   letter-spacing: 0.03em;
-  
+  line-height: 31px;
+}
+.bg-our-team {
+  background-color: #f5f4fa;
 }
 a {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-text-decoration: none;
-
-
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 a:hover,
 a:focus {
@@ -61,7 +70,23 @@ a:focus {
 }
 button {
   font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+  background-color: #f5f4fa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.button-order {
+  font-family: "Roboto";
   font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.button-all {
+  font-family: "Roboto";
+  font-weight: 500;
   font-size: 16px;
   color: #ffffff;
   background-color: #2196f3;
@@ -71,9 +96,7 @@ button {
   background-color: #2f303a;
 }
 header {
- width: 1600px;
-height: 80px;
-background: #FFFFFF
+  background: #ffffff;
 }
 h2 {
   text-align: center;
@@ -119,26 +142,32 @@ footer {
   list-style: none;
 }
 .card-bg-product-designer {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
-  0px 1px 1px rgba(0, 0, 0, 0.14), 
-  0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-background: #FFFFFF;
+  background: #ffffff;
 }
 .card-bg-frontend-developer {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-   0px 1px 1px rgba(0, 0, 0, 0.14),
-   0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
-background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
 }
 .card-bg-marketing {
-background: #FFFFFF;
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .card-bg-ui-designer {
-background: #FFFFFF;
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.names2 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  color: #212121;
 }

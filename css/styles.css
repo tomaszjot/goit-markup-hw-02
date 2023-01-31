@@ -1,5 +1,4 @@
-h1 {
-  font-style: normal;
+.title {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -9,48 +8,45 @@ h1 {
 body {
   font-family: "Roboto";
   color: #212121;
+  font-weight: 400;
 }
-.agency {
-  color: #2196f3;
-}
-.portfolio {
-  color: #2196f3;
-}
-.infodevstudio {
-  color: #2196f3;
-}
-.tel-header {
+.link {
   color: #757575;
+  font-weight: 500;
 }
-span {
+.active {
+  color: #2196F3;;
+}
+.logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   color: #2196f3;
   letter-spacing: 0.03em;
+  font-weight: bolder;
 }
-.page-link-header {
-  font-family: "Oleo Script";
-  font-weight: 400;
+.logo-header {
+  font-family: "Raleway";
+  font-weight: 700;
   font-size: 26px;
-  letter-spacing: 0.03em;
   line-height: 31px;
+  letter-spacing: 0.03em;
+  font-weight: bolder;
 }
-.page-link-footer {
-  font-family: "Oleo Script";
-  font-weight: 400;
+.logo-footer {
+  font-family: "Raleway";
+  font-weight: 700;
   font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: #ffffff;
-  letter-spacing: 0.03em;
-  line-height: 31px;
+  font-weight: bolder;
 }
 .bg-our-team {
   background-color: #f5f4fa;
 }
 a {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -60,11 +56,11 @@ a {
 }
 a:hover,
 a:focus {
-  color: purple;
+  color: #2196F3;
 }
 button:hover,
 button:focus {
-  color: purple;
+  color: #2196F3;
 }
 button {
   font-weight: 500;
@@ -99,14 +95,12 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  font-style: normal;
 }
 .title-lorem {
   text-align: left;
   font-size: 14px;
 }
 .text {
-  font-weight: 400;
   font-size: 14px;
   color: #757575;
 }
@@ -115,8 +109,7 @@ h2 {
   font-size: 16px;
   color: #212121;
 }
-div {
-  font-weight: 400;
+.caption {
   font-size: 16px;
   color: #757575;
 }
@@ -124,7 +117,6 @@ footer {
   background-color: #2f303a;
   color: #ffffff;
   font-family: "Roboto";
-  font-weight: 400;
   font-size: 14px;
 }
 .adress {
@@ -157,7 +149,7 @@ footer {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.names2 {
+.menu-items {
   font-weight: 700;
   font-size: 16px;
   color: #212121;

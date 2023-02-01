@@ -1,9 +1,10 @@
 .title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1, 3;
   text-align: center;
   color: #ffffff;
+  letter-spacing: 0.03em;
 }
 body {
   font-family: "Roboto";
@@ -13,15 +14,16 @@ body {
 .link {
   color: #757575;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 .active {
-  color: #2196F3;;
+  color: #2196f3;
 }
 .logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1, 2;
   color: #2196f3;
   letter-spacing: 0.03em;
   font-weight: bolder;
@@ -30,7 +32,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1, 2;
   letter-spacing: 0.03em;
   font-weight: bolder;
 }
@@ -38,7 +40,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1, 2;
   letter-spacing: 0.03em;
   color: #ffffff;
   font-weight: bolder;
@@ -49,69 +51,66 @@ body {
 a {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1, 14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #212121;
 }
 a:hover,
 a:focus {
-  color: #2196F3;
+  color: #2196f3;
 }
 button:hover,
 button:focus {
-  color: #2196F3;
+  color: #2196f3;
 }
-button {
+.button {
   font-weight: 500;
-  font-size: 16px;
   color: #212121;
   background-color: #f5f4fa;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  line-height: 1, 6;
+  letter-spacing: 0.03em;
 }
 .button-order {
   font-weight: 700;
-  font-size: 16px;
   color: #ffffff;
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  letter-spacing: 0.06em;
 }
-.button-all {
-  font-weight: 500;
-  font-size: 16px;
-  color: #ffffff;
-  background-color: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+
 .hero {
   background-color: #2f303a;
 }
-header {
-  background: #ffffff;
+.title-h3 {
+  text-align: left;
+  font-size: 14px;
+  line-height: 1, 14;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-h2 {
+.title-h2 {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
-}
-.title-lorem {
-  text-align: left;
-  font-size: 14px;
+  line-height: 1, 17;
+  letter-spacing: 0.06em;
 }
 .text {
   font-size: 14px;
   color: #757575;
+  letter-spacing: 0.03em;
 }
 .names {
   font-weight: 500;
-  font-size: 16px;
   color: #212121;
+  letter-spacing: 0.03em;
 }
 .caption {
-  font-size: 16px;
   color: #757575;
+  letter-spacing: 0.03em;
 }
 footer {
   background-color: #2f303a;
@@ -121,36 +120,19 @@ footer {
 }
 .adress {
   color: #ffffff99;
+  letter-spacing: 0.03em;
 }
 .unordered-list {
   list-style: none;
 }
-.card-bg-product-designer {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  background: #ffffff;
-}
-.card-bg-frontend-developer {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  background: #ffffff;
-}
-.card-bg-marketing {
-  background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.card-bg-ui-designer {
-  background: #ffffff;
+.card {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 .menu-items {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   color: #212121;
+  letter-spacing: 0.06em;
 }

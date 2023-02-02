@@ -47,6 +47,7 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: #212121;;
 }
 a:hover,
 a:focus {
@@ -134,3 +135,4 @@ footer {
 :root {
   --brand-color: #212121;
 }
+

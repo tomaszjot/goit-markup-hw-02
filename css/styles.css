@@ -1,14 +1,13 @@
 .title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 3;
+  line-height: 1.3;
   text-align: center;
   color: #ffffff;
   letter-spacing: 0.03em;
 }
 body {
   font-family: "Roboto";
-  color: #212121;
   font-weight: 400;
 }
 .link {
@@ -20,19 +19,13 @@ body {
   color: #2196f3;
 }
 .logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1, 2;
   color: #2196f3;
-  letter-spacing: 0.03em;
-  font-weight: bolder;
 }
 .logo-header {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   font-weight: bolder;
 }
@@ -40,7 +33,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: #ffffff;
   font-weight: bolder;
@@ -51,25 +44,24 @@ body {
 a {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #212121;
 }
 a:hover,
 a:focus {
   color: #2196f3;
 }
-button:hover,
-button:focus {
-  color: #2196f3;
+.button:hover,
+.button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
 }
 .button {
   font-weight: 500;
-  color: #212121;
   background-color: #f5f4fa;
   cursor: pointer;
-  line-height: 1, 6;
+  line-height: 1.6;
   letter-spacing: 0.03em;
 }
 .button-order {
@@ -78,6 +70,11 @@ button:focus {
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.button-order:hover,
+.button-order:focus {
+  color: #ffffff;
 }
 
 .hero {
@@ -86,7 +83,7 @@ button:focus {
 .title-h3 {
   text-align: left;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.03em;
@@ -95,7 +92,7 @@ button:focus {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 17;
+  line-height: 1.17;
   letter-spacing: 0.06em;
 }
 .text {
@@ -105,7 +102,6 @@ button:focus {
 }
 .names {
   font-weight: 500;
-  color: #212121;
   letter-spacing: 0.03em;
 }
 .caption {
@@ -133,6 +129,8 @@ footer {
 .menu-items {
   font-weight: 700;
   font-size: 18px;
-  color: #212121;
   letter-spacing: 0.06em;
+}
+:root {
+  --brand-color: #212121;
 }
